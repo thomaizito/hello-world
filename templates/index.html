@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Página Inicial</title>
+</head>
+<body>
+    <h1>Olá, {{ nome }}!</h1>
+
+    <form action="/mensagem" method="POST">
+        <label for="texto">Digite uma mensagem:</label>
+        <input type="text" name="texto" required>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
